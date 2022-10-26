@@ -24,11 +24,15 @@ h3 {
 header {
   padding: 10px 0px 10px 10px;
   background-color: rgb(8, 8, 8);
+  width: 100%;
   color: white;
+  position: fixed;
+  z-index: 2;
 }
 
-#main {
-  background-color: rgb(204, 153, 204);
+main {
+  top: 57px;
+  position: relative;
 }
 
 nav {
@@ -55,10 +59,76 @@ nav > :nth-child(1) {
   color: white;
 }
 
+#nav-toggle {
+  background-color: transparent;
+  border: 2px solid transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+#dropdown-nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(204, 153, 204);
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
+  width: 0%;
+  text-align: center;
+}
+
+.drop-nav {
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.drop-nav li {
+  list-style: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.drop-nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#ham-one {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 4px;
+}
+
+#ham-two {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 4px;
+}
+
+#ham-three {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  margin-bottom: 4px;
+}
+
 #jude {
   height: 250px;
   width: 250px;
   border-radius: 50%;
+  position: relative;
 }
 
 #jude-img-div {
@@ -71,6 +141,7 @@ nav > :nth-child(1) {
 }
 
 #article-1 {
+  background-color: rgb(204, 153, 204);
   text-align: center;
   padding: 0 20%;
 }

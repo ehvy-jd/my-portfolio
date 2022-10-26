@@ -15,11 +15,31 @@
         <ul id="nav-list">
           <li><a href="#about">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="contact.html">Contacts</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+        <!-- Hamburger toggle button and dropdown menu -->
+        <button id="nav-toggle" role="presentation">
+          <span id="ham-one"></span><span id="ham-two"></span
+          ><span id="ham-three"></span>
+        </button>
       </nav>
     </header>
     <main id="main">
+      <div id="dropdown-nav">
+        <nav class="drop-nav" role="presentation">
+          <ul role="presentation">
+            <li id="ham-nav-abo">
+              <a href="#about">About Me</a>
+            </li>
+            <li id="ham-nav-pro">
+              <a href="#projects">Projects</a>
+            </li>
+            <li id="ham-nav-con">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div id="jude-img-div">
         <img
           src="./images/SST_7322 (1).jpg"
@@ -28,12 +48,15 @@
         />
       </div>
       <article id="article-1">
-        <h1>Hi, I am Jude Evroh</h1>
-        <p>I am a software engineer and i specialize in front-end web development.
-          I create visually stunning desgins with clean code to boot.
-          I am dedicated and on constantly evolving in my field.
+        <h1>Hi, I'm Jude Evroh</h1>
+        <h2>Software Engineer extraordinaire</h2>
+        <p>
+          I specialize in front-end web development. I create visually stunning
+          desgins with clean code to boot. I am dedicated and constantly
+          evolving in my field.
         </p>
       </article>
     </main>
+    <script src="js/index.js"></script>
   </body>
 </html>
