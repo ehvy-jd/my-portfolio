@@ -173,8 +173,10 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 20px;
-  width: 100%;
+  width: 90%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #projects a {
