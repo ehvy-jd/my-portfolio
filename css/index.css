@@ -157,13 +157,14 @@ header {
 }
 
 #project-section {
-  background-color: rgb(209, 209, 209);
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
 }
 
 #project-section h1 {
   text-align: center;
   padding: 80px 0px 0px 0px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 #projects {
