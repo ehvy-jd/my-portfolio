@@ -173,11 +173,17 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+#projects a {
+  color: #ffffff;
 }
 
 #projects a img {
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  height: 18.75rem;
   padding: 10px 0px;
 }
 
