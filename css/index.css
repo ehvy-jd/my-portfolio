@@ -6,6 +6,18 @@ html {
   font-size: 16px;
 }
 
+@font-face {
+  font-family: "bebas-neue";
+  src: url("../font/bebas-neue-v9-latin-regular.woff2") format("woff2"),
+    url("../font/bebas-neue-v9-latin-regular.woff") format("woff"),
+    url("../font/bebas-neue-v9-latin-regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  font-family: "bebas-neue", "cursive";
+}
+
 h1 {
   font-size: 32px;
   font-weight: bolder;
@@ -133,7 +145,7 @@ header {
 }
 
 #jude-img-div {
-  padding: 20px 0px;
+  padding: 40px 0px;
   background-color: gray;
   background-image: linear-gradient(to top, grey, white);
   display: flex;
