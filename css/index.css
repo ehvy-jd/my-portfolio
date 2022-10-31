@@ -220,8 +220,7 @@ header {
 
 #pj1,
 #pj2,
-#pj3,
-#pj4 {
+#pj3 {
   position: absolute;
   z-index: 1;
   height: 0;
@@ -239,15 +238,13 @@ header {
 
 #pj1 p,
 #pj2 p,
-#pj3 p,
-#pj4 p {
+#pj3 p {
   padding-top: 50px;
 }
 
 #pj1 p span,
 #pj2 p span,
-#pj3 p span,
-#pj4 p span {
+#pj3 p span {
   font-size: 1.5rem;
 }
 

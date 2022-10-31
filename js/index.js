@@ -55,11 +55,9 @@ contact.addEventListener("click", closeDropNav);
 let pjPopUp1 = document.getElementById("pj1");
 let pjPopUp2 = document.getElementById("pj2");
 let pjPopUp3 = document.getElementById("pj3");
-let pjPopUp4 = document.getElementById("pj4");
 let imageLink1 = document.getElementById("img-link1");
 let imageLink2 = document.getElementById("img-link2");
 let imageLink3 = document.getElementById("img-link3");
-let imageLink4 = document.getElementById("img-link4");
 
 const popUp1 = () => {
   pjPopUp1.style.height = "150px";
@@ -85,14 +83,6 @@ const popDown3 = () => {
   pjPopUp3.style.height = "0";
 };
 
-const popUp4 = () => {
-  pjPopUp4.style.height = "150px";
-};
-
-const popDown4 = () => {
-  pjPopUp4.style.height = "0";
-};
-
 imageLink1.addEventListener("mouseover", popUp1);
 imageLink1.addEventListener("mouseout", popDown1);
 pjPopUp1.addEventListener("mouseover", popUp1);
@@ -105,7 +95,3 @@ imageLink3.addEventListener("mouseover", popUp3);
 imageLink3.addEventListener("mouseout", popDown3);
 pjPopUp3.addEventListener("mouseover", popUp3);
 pjPopUp3.addEventListener("mouseout", popDown3);
-imageLink4.addEventListener("mouseover", popUp4);
-imageLink4.addEventListener("mouseout", popDown4);
-pjPopUp4.addEventListener("mouseover", popUp4);
-pjPopUp4.addEventListener("mouseout", popDown4);
