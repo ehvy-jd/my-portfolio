@@ -40,6 +40,7 @@ h4 {
   font-weight: bold;
 }
 
+/* Header Section */
 header {
   padding: 10px 0px 10px 10px;
   background-color: rgb(24, 24, 24);
@@ -148,6 +149,7 @@ header {
   margin-bottom: 4px;
 }
 
+/* About Me Section */
 #jude {
   height: 250px;
   width: 250px;
@@ -184,6 +186,7 @@ header {
   padding: 10px 0 40px 0;
 }
 
+/* Project Section */
 #project-section {
   background-color: rgb(24, 24, 24);
   color: #ffffff;
@@ -254,6 +257,7 @@ header {
   height: 18.75rem;
 }
 
+/* Footer section */
 #foot {
   position: relative;
   top: 53px;

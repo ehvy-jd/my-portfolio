@@ -51,6 +51,7 @@ about.addEventListener("click", closeDropNav);
 projects.addEventListener("click", closeDropNav);
 contact.addEventListener("click", closeDropNav);
 
+// Project pop-up div
 let pjPopUp1 = document.getElementById("pj1");
 let pjPopUp2 = document.getElementById("pj2");
 let pjPopUp3 = document.getElementById("pj3");
