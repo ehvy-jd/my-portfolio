@@ -54,7 +54,7 @@ header {
 }
 
 #main {
-  top: 57px;
+  top: 53px;
   position: relative;
 }
 
@@ -256,7 +256,7 @@ header {
 
 #foot {
   position: relative;
-  top: 57px;
+  top: 53px;
   text-align: center;
 }
 
@@ -300,6 +300,23 @@ header {
   color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+  #projects {
+    width: 95%;
+  }
+
+  #projects a {
+    width: 45%;
+  }
+
+  #pj1,
+  #pj2,
+  #pj3,
+  #pj4 {
+    width: 45%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #nav-list {
     display: none;
@@ -311,6 +328,23 @@ header {
 
   #projects {
     flex-direction: column;
+  }
+
+  #projects a {
+    width: 65%;
+  }
+
+  #pj1,
+  #pj2,
+  #pj3,
+  #pj4 {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #projects {
+    width: 90%;
   }
 
   #projects a {
@@ -326,6 +360,10 @@ header {
 }
 
 @media only screen and (max-width: 425px) {
+  #projects {
+    width: 95%;
+  }
+
   #projects a {
     width: 90%;
   }
